@@ -1,0 +1,44 @@
+body {
+  background-color: crimson;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.control-gird {
+  padding-top: 50px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.catigory-gape button {
+background-color: green;
+}
+
+.cart-body {
+  background-color: rgb(224, 56, 90);
+  height: 500px;
+}
+
+.cart-body button  {
+  background-color: green;
+}
+
+.cart-body a {
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .control-gird {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .control-gird {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
